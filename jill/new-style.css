@@ -9,8 +9,13 @@ body {
   padding: 0;
 }
 
+p {
+    padding-left: 10px;
+}
+
 h1 {
   text-align:center;
+  font-family:"Helvetica Neue","Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 h3 {
@@ -59,15 +64,19 @@ li:hover ul {
     text-align: left;
     padding:12px;
     cursor:pointer;
-    background-color:
 }
 
 .links li li {
     display: block;
+    color: #a6b9d8;
 }
 
 .links {
     text-align: center;
+    width:50%;
+    margin-left: 25%;
+    background-color: grey;
+    color: white;
 }
 
 #main {
@@ -93,10 +102,17 @@ li:hover ul {
 }
 
 .post {
-    background-color:#d6d6d6;
+    background-color:#a6b9d8;
     padding:5px;
     border-radius: 0px;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 4px 13px 0 rgba(0, 0, 0, 0.39);*/
+}
+
+.pic-post{
+    padding:0px;
+}
+.pic{
+    padding:0px;
 }
 
 .header {
@@ -139,7 +155,7 @@ img.centered {
 
 .socialmedia {
     position: absolute;
-    top:-5px;
+    top:10px;
     right:10px;
 }
 
